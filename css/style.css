@@ -1,0 +1,706 @@
+@charset "UTF-8";
+::selection {
+  background: #d00150;
+  color: #fff; }
+
+::-moz-selection {
+  background: #d00150;
+  color: #fff; }
+
+header {
+  width: 100%;
+  height: 750px;
+  background-image: url("../img/headerBg.png"); }
+
+.container {
+  max-width: 1170px;
+  padding: 0; }
+
+.headerMenu {
+  width: 100%;
+  height: 100px; }
+  .headerMenu nav {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    height: 100px;
+    background-color: transparent; }
+  .headerMenu .navbar-toggle {
+    z-index: 99999; }
+  .headerMenu .phonemenu {
+    position: fixed;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin-right: 0px;
+    margin-left: 0px;
+    opacity: 0.9;
+    z-index: 99998; }
+  .headerMenu .nav {
+    height: 100px;
+    margin-top: 40px;
+    text-align: center; }
+    .headerMenu .nav li a {
+      position: relative;
+      display: block;
+      padding-top: 0;
+      padding-right: 0;
+      padding-left: 40px;
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.75) !important;
+      font-family: "ralewaybold";
+      font-weight: bold;
+      text-transform: uppercase; }
+      .headerMenu .nav li a:hover {
+        color: #fff !important; }
+  .headerMenu .headerLogo {
+    background-image: url("../img/headerLogo.png");
+    width: 189px;
+    height: 24px;
+    float: left;
+    margin-top: 38px; }
+
+.bolum1 {
+  margin-top: 156px; }
+  .bolum1 h1 {
+    text-align: center;
+    font-size: 65px;
+    font-weight: bold;
+    display: block;
+    color: #fff !important;
+    margin: 0 auto; }
+  .bolum1 p {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 300;
+    display: block;
+    color: #fff !important;
+    margin-top: 40px;
+    font-family: "Raleway", sans-serif; }
+  .bolum1 .bolum1Buton {
+    width: 200px;
+    height: 46px;
+    font-family: "Raleway", sans-serif;
+    line-height: 46px;
+    background-color: #e20222;
+    color: #fff;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 2px;
+    margin: 80px auto 0px; }
+    .bolum1 .bolum1Buton:hover {
+      background-color: #d00150; }
+
+.bolum2 {
+  width: 100%;
+  height: 692px;
+  background-color: #FFF;
+  padding-top: 120px; }
+  .bolum2 .bolum2Icerik {
+    margin-bottom: 50px; }
+    .bolum2 .bolum2Icerik .icon {
+      color: #e84545;
+      font-size: 60px; }
+    .bolum2 .bolum2Icerik h5 {
+      display: block;
+      margin-top: 30px;
+      position: relative;
+      font-size: 14px;
+      color: #2d3033;
+      font-family: "ralewaybold";
+      font-weight: bold;
+      text-transform: uppercase; }
+    .bolum2 .bolum2Icerik p {
+      font-size: 14px;
+      font-family: "ralewaybold";
+      line-height: 22.4px;
+      color: #6c7279;
+      width: 230px;
+      margin: 0 auto 23px; }
+
+.bolum3 {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  padding: 0;
+  overflow: hidden; }
+  .bolum3 .bolum3icerik {
+    border: 1px #fff solid; }
+    .bolum3 .bolum3icerik:hover .bolum3icerikHover {
+      opacity: 1; }
+    .bolum3 .bolum3icerik img {
+      width: 100%;
+      height: 350px; }
+    .bolum3 .bolum3icerik .bolum3icerikHover {
+      background: rgba(232, 69, 69, 0.9);
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      opacity: 0;
+      position: absolute;
+      -moz-transition: opacity, 0.3s;
+      -o-transition: opacity, 0.3s;
+      -webkit-transition: opacity, 0.3s;
+      transition: opacity, 0.3s; }
+    .bolum3 .bolum3icerik .bolum3HoverText {
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      width: 100%;
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%); }
+      .bolum3 .bolum3icerik .bolum3HoverText h5 {
+        color: #fff;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 700; }
+      .bolum3 .bolum3icerik .bolum3HoverText p {
+        color: #fff; }
+
+.bolum4 {
+  width: 100%;
+  height: 782px;
+  position: relative;
+  padding: 0; }
+  .bolum4 .bolum4icerik {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 30px;
+    position: relative; }
+    .bolum4 .bolum4icerik:last-child {
+      margin-right: 0px; }
+    .bolum4 .bolum4icerik img {
+      width: 100%;
+      height: 270px; }
+    .bolum4 .bolum4icerik h5 {
+      margin-top: 30px;
+      display: block;
+      font-size: 22px;
+      font-family: "ralewaybold";
+      color: #2d3033; }
+    .bolum4 .bolum4icerik span {
+      margin-top: 10px;
+      font-family: "ralewaybold";
+      display: block;
+      font-size: 13px;
+      color: #e84545; }
+    .bolum4 .bolum4icerik p {
+      margin-top: 20px;
+      color: #6c7279;
+      font-family: "ralewaybold";
+      display: block;
+      font-size: 14px;
+      line-height: 22.4px; }
+    .bolum4 .bolum4icerik .social-icons {
+      margin-top: 30px; }
+      .bolum4 .bolum4icerik .social-icons li {
+        float: left; }
+        .bolum4 .bolum4icerik .social-icons li a {
+          border: 1px solid #e8ecee;
+          -moz-border-radius: 2px;
+          -webkit-border-radius: 2px;
+          border-radius: 2px;
+          color: #c6cacc;
+          display: block;
+          font-size: 18px;
+          height: 40px;
+          line-height: 40px;
+          margin-right: 5px;
+          text-align: center;
+          width: 38px;
+          text-decoration: none; }
+          .bolum4 .bolum4icerik .social-icons li a:hover {
+            color: #fff;
+            background-color: #e84545;
+            transition: 0.3s; }
+
+.bolum5 {
+  position: relative;
+  height: 500px;
+  width: 100%; }
+  .bolum5 img {
+    height: 500px; }
+  .bolum5 .carousel {
+    height: 500px;
+    background-color: #e20222; }
+    .bolum5 .carousel .item p {
+      margin-top: 114px;
+      margin-left: 85px;
+      font-size: 36px;
+      line-height: 1.2;
+      color: #fff;
+      font-family: "Cardo", serif;
+      font-weight: 400i;
+      float: left; }
+    .bolum5 .carousel .item span {
+      margin-top: 37px;
+      margin-left: 85px;
+      font-size: 13px;
+      color: #fff;
+      font-family: "Raleway", sans-serif;
+      font-weight: 700;
+      float: left; }
+
+.bolum6 {
+  height: 339px;
+  position: relative; }
+  .bolum6 h2 {
+    margin-top: 100px;
+    font-size: 28px;
+    color: #2d3033;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    display: block; }
+  .bolum6 h3 {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #2d3033;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    display: block; }
+  .bolum6 .bolum6Buton {
+    width: 200px;
+    height: 46px;
+    font-family: "Raleway", sans-serif;
+    line-height: 46px;
+    background-color: #e20222;
+    color: #fff;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 2px;
+    margin: 40px auto 99px; }
+    .bolum6 .bolum6Buton:hover {
+      background-color: #d00150; }
+
+.bolum7 {
+  background-color: #3A3E64;
+  position: relative; }
+  .bolum7 .bolum7baslik {
+    font-family: "Raleway", sans-serif;
+    line-height: 46px;
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 70px; }
+  .bolum7 .bolum7paragraf {
+    font-family: "Raleway", sans-serif;
+    line-height: 1.6;
+    color: #9C9EB1;
+    font-size: 14px;
+    display: block;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 25%; }
+  .bolum7 .b7paragrafSag {
+    width: 100%;
+    margin-left: 0; }
+  .bolum7 .bolum7sol, .bolum7 .bolum7sag {
+    margin-bottom: 80px; }
+  .bolum7 .bolum7orta {
+    margin-bottom: 80px; }
+    .bolum7 .bolum7orta ul li {
+      float: none;
+      display: inline-block; }
+      .bolum7 .bolum7orta ul li a {
+        border: 2px solid #e8ecee;
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        border-radius: 2px;
+        color: #c6cacc;
+        display: block;
+        font-size: 18px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 5px;
+        text-align: center;
+        width: 38px;
+        text-decoration: none; }
+        .bolum7 .bolum7orta ul li a:hover {
+          color: #fff;
+          background-color: #e84545;
+          transition: 0.3s; }
+
+footer {
+  background: #313454; }
+  footer p {
+    font-size: 14px;
+    color: gray;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    line-height: 1.6;
+    display: inline-block;
+    float: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 320px; }
+    footer p b {
+      color: #e20222;
+      font-size: 20px; }
+    footer p span {
+      color: #fff; }
+
+/*	Font Icon */
+@font-face {
+  font-family: "elegant-theme-line";
+  src: url("../fonts/elegant-theme-line.ttf?1439850014") format("truetype"), url("../fonts/elegant-theme-line.eot?1439850014") format("embedded-opentype"), url("../fonts/elegant-theme-line.svg?1439850014") format("svg"), url("../fonts/elegant-theme-line.woff?1439850014") format("woff"); }
+.icon {
+  font-family: "elegant-theme-line";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-mobile:before {
+  content: ""; }
+
+.icon-laptop:before {
+  content: ""; }
+
+.icon-desktop:before {
+  content: ""; }
+
+.icon-tablet:before {
+  content: ""; }
+
+.icon-phone:before {
+  content: ""; }
+
+.icon-document:before {
+  content: ""; }
+
+.icon-documents:before {
+  content: ""; }
+
+.icon-search:before {
+  content: ""; }
+
+.icon-clipboard:before {
+  content: ""; }
+
+.icon-newspaper:before {
+  content: ""; }
+
+.icon-notebook:before {
+  content: ""; }
+
+.icon-book-open:before {
+  content: ""; }
+
+.icon-browser:before {
+  content: ""; }
+
+.icon-calendar:before {
+  content: ""; }
+
+.icon-presentation:before {
+  content: ""; }
+
+.icon-picture:before {
+  content: ""; }
+
+.icon-pictures:before {
+  content: ""; }
+
+.icon-video:before {
+  content: ""; }
+
+.icon-camera:before {
+  content: ""; }
+
+.icon-printer:before {
+  content: ""; }
+
+.icon-toolbox:before {
+  content: ""; }
+
+.icon-briefcase:before {
+  content: ""; }
+
+.icon-wallet:before {
+  content: ""; }
+
+.icon-gift:before {
+  content: ""; }
+
+.icon-bargraph:before {
+  content: ""; }
+
+.icon-grid:before {
+  content: ""; }
+
+.icon-expand:before {
+  content: ""; }
+
+.icon-focus:before {
+  content: ""; }
+
+.icon-edit:before {
+  content: ""; }
+
+.icon-adjustments:before {
+  content: ""; }
+
+.icon-ribbon:before {
+  content: ""; }
+
+.icon-hourglass:before {
+  content: ""; }
+
+.icon-lock:before {
+  content: ""; }
+
+.icon-megaphone:before {
+  content: ""; }
+
+.icon-shield:before {
+  content: ""; }
+
+.icon-trophy:before {
+  content: ""; }
+
+.icon-flag:before {
+  content: ""; }
+
+.icon-map:before {
+  content: ""; }
+
+.icon-puzzle:before {
+  content: ""; }
+
+.icon-basket:before {
+  content: ""; }
+
+.icon-envelope:before {
+  content: ""; }
+
+.icon-streetsign:before {
+  content: ""; }
+
+.icon-telescope:before {
+  content: ""; }
+
+.icon-gears:before {
+  content: ""; }
+
+.icon-key:before {
+  content: ""; }
+
+.icon-paperclip:before {
+  content: ""; }
+
+.icon-attachment:before {
+  content: ""; }
+
+.icon-pricetags:before {
+  content: ""; }
+
+.icon-lightbulb:before {
+  content: ""; }
+
+.icon-layers:before {
+  content: ""; }
+
+.icon-pencil:before {
+  content: ""; }
+
+.icon-tools:before {
+  content: ""; }
+
+.icon-tools-2:before {
+  content: ""; }
+
+.icon-scissors:before {
+  content: ""; }
+
+.icon-paintbrush:before {
+  content: ""; }
+
+.icon-magnifying-glass:before {
+  content: ""; }
+
+.icon-circle-compass:before {
+  content: ""; }
+
+.icon-linegraph:before {
+  content: ""; }
+
+.icon-mic:before {
+  content: ""; }
+
+.icon-strategy:before {
+  content: ""; }
+
+.icon-beaker:before {
+  content: ""; }
+
+.icon-caution:before {
+  content: ""; }
+
+.icon-recycle:before {
+  content: ""; }
+
+.icon-anchor:before {
+  content: ""; }
+
+.icon-profile-male:before {
+  content: ""; }
+
+.icon-profile-female:before {
+  content: ""; }
+
+.icon-bike:before {
+  content: ""; }
+
+.icon-wine:before {
+  content: ""; }
+
+.icon-hotairballoon:before {
+  content: ""; }
+
+.icon-globe:before {
+  content: ""; }
+
+.icon-genius:before {
+  content: ""; }
+
+.icon-map-pin:before {
+  content: ""; }
+
+.icon-dial:before {
+  content: ""; }
+
+.icon-chat:before {
+  content: ""; }
+
+.icon-heart:before {
+  content: ""; }
+
+.icon-cloud:before {
+  content: ""; }
+
+.icon-upload:before {
+  content: ""; }
+
+.icon-download:before {
+  content: ""; }
+
+.icon-target:before {
+  content: ""; }
+
+.icon-hazardous:before {
+  content: ""; }
+
+.icon-piechart:before {
+  content: ""; }
+
+.icon-speedometer:before {
+  content: ""; }
+
+.icon-global:before {
+  content: ""; }
+
+.icon-compass:before {
+  content: ""; }
+
+.icon-lifesaver:before {
+  content: ""; }
+
+.icon-clock:before {
+  content: ""; }
+
+.icon-aperture:before {
+  content: ""; }
+
+.icon-quote:before {
+  content: ""; }
+
+.icon-scope:before {
+  content: ""; }
+
+.icon-alarmclock:before {
+  content: ""; }
+
+.icon-refresh:before {
+  content: ""; }
+
+.icon-happy:before {
+  content: ""; }
+
+.icon-sad:before {
+  content: ""; }
+
+.icon-facebook:before {
+  content: ""; }
+
+.icon-twitter:before {
+  content: ""; }
+
+.icon-googleplus:before {
+  content: ""; }
+
+.icon-rss:before {
+  content: ""; }
+
+.icon-tumblr:before {
+  content: ""; }
+
+.icon-linkedin:before {
+  content: ""; }
+
+.icon-dribbble:before {
+  content: ""; }
+
+@media screen and (max-width: 1024px) {
+  .navbar-collapse .nav li {
+    margin-bottom: 20px; }
+    .navbar-collapse .nav li a {
+      display: block;
+      font-size: 25px;
+      margin: 0;
+      text-align: center; }
+
+  .collapse .nav {
+    position: relative;
+    top: 30%; } }
+@media screen and (max-width: 600px) {
+  .bolum1 h1 {
+    font-size: 32px; } }
+@media screen and (max-width: 768px) {
+  .bolum2Icerik p {
+    width: 460px !important; } }
+@media screen and (max-width: 347px) {
+  .bolum1 h1 {
+    font-size: 18px !important; }
+
+  footer p {
+    width: 250px; } }
+@media screen and (max-width: 500px) {
+  .bolum2Icerik p {
+    width: 230px !important; }
+
+  .bolum5 .carousel .item p {
+    margin-top: 30px !important; } }
+@media (min-width: 992px) {
+  .bolum4 .col-md-3 {
+    width: 22.6% !important; } }
+
+/*# sourceMappingURL=style.css.map */
